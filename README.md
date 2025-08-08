@@ -11,9 +11,7 @@
 
 ## 🔥 Introduction 
 
-We introduce **MakeupQuad**, a large-scale, high-quality dataset containing non-makeup faces, reference images, edited results, and detailed makeup descriptions.  
-Building on this dataset, we propose **EvoMakeup**, a unified training framework that tackles image degradation during multi-stage distillation and iteratively improves both data and model quality.  
-Even though EvoMakeup is trained solely on synthetic data, it generalizes well and outperforms previous methods on real-world benchmarks.
+We introduce **MakeupQuad**, a large-scale, high-quality dataset containing non-makeup faces, reference images, edited results, and detailed makeup descriptions. Building on this dataset, we propose **EvoMakeup**, a unified training framework that tackles image degradation during multi-stage distillation and iteratively improves both data and model quality. Even though EvoMakeup is trained solely on synthetic data, it generalizes well and outperforms previous methods on real-world benchmarks.
 
 
 <div align='center'>
@@ -24,10 +22,9 @@ Even though EvoMakeup is trained solely on synthetic data, it generalizes well a
 
 
 ## 🌿 Overview of the MakeupQuad construction pipeline and the EvoMakeup training framework
-
+Left: Coarse full-face makeup quadruplets are built using GPT-4v-generated descriptions, identity-varied no-makeup images from FLUX, SeedEdit-based editing, and inpainting to create reference images with consistent makeup but different identities. Middle: A full-face makeup editing model trained on the above coarse dataset generates partial makeup results. A limited set of high-quality region-specific quadruplets are selected through a series of filters, including an MLLM-based strategy, to fine-tune partial editing models that synthesize large-scale coarse partial quadruplets. Right: The EvoMakeup framework iteratively refines both model and data based on these coarse datasets. Using task reverse and data balance strategies with multiple filtering steps, EvoMakeup progressively improves fidelity and consistency.
 <div align='center'>
 <img src="./assets/pipeline.jpeg" class="interpolation-image" alt="method." height="100%" width="100%" />
-<p><b>Figure 2:</b> Left: Coarse full-face makeup quadruplets are built using GPT-4v-generated descriptions, identity-varied no-makeup images from FLUX, SeedEdit-based editing, and inpainting to create reference images with consistent makeup but different identities. Middle: A full-face makeup editing model trained on the above coarse dataset generates partial makeup results. A limited set of high-quality region-specific quadruplets are selected through a series of filters, including an MLLM-based strategy, to fine-tune partial editing models that synthesize large-scale coarse partial quadruplets. Right: The EvoMakeup framework iteratively refines both model and data based on these coarse datasets. Using task reverse and data balance strategies with multiple filtering steps, EvoMakeup progressively improves fidelity and consistency.</p>
 </div>
 
 
