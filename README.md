@@ -2,7 +2,7 @@
 # EvoMakeup: High-Fidelity and Controllable Makeup Editing with MakeupQuad
 <div align="center">
 
-[![EvoMakeup](https://img.shields.io/badge/Paper-EvoMakeup-2b9348.svg?logo=arXiv)](https://github.com/ByteVisionLab/EvoMakeup)&nbsp;
+[![EvoMakeup](https://img.shields.io/badge/Paper-EvoMakeup-2b9348.svg?logo=arXiv)](https://arxiv.org/abs/2508.05994)&nbsp;
 [![MakeupQuad](https://img.shields.io/badge/Project_page-EvoMakeup-green?logo=bytedance)](https://github.com/ByteVisionLab/EvoMakeup)&nbsp;
 
 </div>
@@ -73,6 +73,21 @@ Here we present data from **MakeupQuad**, the first large-scale, high-resolution
 </div>
 
 
+
+## 📄 Citation
+
+If our work assists your research, feel free to give us a star ⭐ or cite us using
+
+```
+@misc{wu2025evomakeuphighfidelitycontrollablemakeup,
+      title={EvoMakeup: High-Fidelity and Controllable Makeup Editing with MakeupQuad}, 
+      author={Huadong Wu and Yi Fu and Yunhao Li and Yuan Gao and Kang Du},
+      year={2025},
+      eprint={2508.05994},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.05994}, 
+}
 
 ## 🌿 Acknowledgement
 
