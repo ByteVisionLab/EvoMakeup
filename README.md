@@ -74,7 +74,10 @@ Here we present data from **MakeupQuad**, the first large-scale, high-resolution
 
 
 
-## Acknowledgement
+## 🌿 Acknowledgement
 
 We thank the great work from [OmniGen](https://github.com/VectorSpaceLab/OmniGen).
 
+
+## 🔥 Open positions
+We are hiring interns and full-time researchers at ByteDance, with a focus on portrait understanding and generation (preferred base: Beijing, Shenzhen and Hangzhou). If you are interested, please contact gaoyuan.azeroth@bytedance.com.
